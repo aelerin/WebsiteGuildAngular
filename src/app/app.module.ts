@@ -27,6 +27,8 @@ import { ButtonModule } from 'primeng/button';
 import { FormBuilder, FormGroup, FormsModule, ReactiveFormsModule } from '@angular/forms'
 
 import { InputTextModule } from 'primeng/inputtext';
+import { PrimeIcons } from 'primeng/api';
+
 
 
 @NgModule({
@@ -62,9 +64,11 @@ import { InputTextModule } from 'primeng/inputtext';
     ReactiveFormsModule,
     FormsModule,
     InputTextModule,
+
+
   ],
   providers: [],
-  bootstrap: [AppComponent],
+  bootstrap: [AppComponent,PrimeIcons],
 
 })
 export class AppModule { }
