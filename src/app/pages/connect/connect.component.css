@@ -1,0 +1,25 @@
+form {
+    text-align: center;
+}
+
+.userConnect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+    flex-direction: column;
+}
+
+H3 {
+    font-size: 32PX;
+}
+
+label {
+    font-size: 26px;
+    margin-bottom: 18px;
+}
+
+input {
+    margin-bottom: 20px;
+}
+

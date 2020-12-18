@@ -1,0 +1,22 @@
+<form [formGroup]="userConnect" (ngSubmit)="onSubmit()">
+
+    <h3>Connexion</h3>
+    <div class="userConnect">
+
+
+        <label>
+            Email
+        </label>
+        <input type="text" pInputText class="p-inputtext-lg" formControlName="Email">
+        <label>
+            Mot de passe
+        </label>
+        <input id="float-input" type="text" pInputText class="p-inputtext-lg" formControlName="Password">
+    </div>
+    <div>
+
+        <button (click)="redirectToProfile()" class="p-button-secondary p-ripple p-button p-component" type=submit>Log
+            in</button>
+    </div>
+
+</form>
